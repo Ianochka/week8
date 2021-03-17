@@ -1,0 +1,14 @@
+.row,
+.col {
+    margin: 2px;
+}
+
+.col {
+    font-size: 1.2em;
+    color: ivory;
+    background-color: rgba(57, 57, 233, 0.5);
+}
+
+.col {
+    background-color: rgba(57, 57, 233, 0.5);
+}

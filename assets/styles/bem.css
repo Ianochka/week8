@@ -1,0 +1,12 @@
+.container {
+    margin-top: 20px;
+}
+
+.col-2 {
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+.col-12 {
+    background-color: lightskyblue;
+}
