@@ -6,12 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/styles/bem.css">
 </head>
 
 
 <body>
-    
+    <header class="header">
+        <img class="header__logo" src="./assets/images/logo.svg" alt="logo">
+        <button class="header__button">КОРЗИНА <img class="header__button-img_top" src="./assets/images/shop_basket_icon.svg" alt="shopping basket"></button>
+    </header>
+    <section class="section">
+        <div class="section__title-box">
+            <h1 class="section__title">ВОЗМОЖНОСТИ</h1>
+        </div>
+        <div class="section__row-1">
+            <article class="article-1">
+                <img class="article-1__image" src="./assets/images/image_art1.svg" alt="the scientist">
+                <h3 class="article-1__title">БЕЗ ПРОВОДОВ</h3>
+                <p class="article-1__text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p>
+            </article>
+            <article class="article-2">
+                <img class="article-2__image" src="./assets/images/image_art2.svg" alt="alive computer with the cloud">
+                <h3 class="article-2__title">БЕЗ КОМПЬЮТЕРА</h3>
+                <p class="article-2__text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
+            </article>
+            <article class="article-3">
+                <img class="article-3__image" src="./assets/images/image_art3.svg" alt="the man at the computer">
+                <h3 class="article-3__title">ДО 10 ЧАСОВ РАБОТЫ</h3>
+                <p class="article-3__text">Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
+            </article>
+        </div>
+        <div class="section__row-2">
+            <article class="article-4">
+                <h3 class="article-4__title">СОТНИ ИГР</h3>
+                <p class="article-4__text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
+            </article>
+            <article class="article-5">
+                <h3 class="article-5__title">ПОЧТИ ДАРОМ</h3>
+                <p class="article-5__text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p>
+            </article>
+            <form class="form">
+                <h3 class="form__title">НОВОСТИ</h3>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Эл.почта">
+                <button class="form__button">ПОДПИСАТЬСЯ</button>
+            </form>
+        </div>
+        <nav class="section__nav nav">
+            <a class="nav__item" href="#">Возможности</a>
+            <a class="nav__item" href="#">Где купить</a>
+            <a class="nav__item" href="#">Доставка</a>
+            <a class="nav__item" href="#">Помощь</a>
+        </nav>
+    </section>
 </body>
 
 </html>
